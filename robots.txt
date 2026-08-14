@@ -1,0 +1,17 @@
+# robots.txt — Right Choice Creators Interiors
+# https://rightchoicecreators.in/
+
+# Allow all search engine crawlers
+User-agent: *
+Allow: /
+
+# Block access to any admin or private paths (future-proofing)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.php$
+
+# Sitemap location
+Sitemap: https://rightchoicecreators.in/sitemap.xml
+
+# Crawl delay (optional — polite crawling)
+Crawl-delay: 10
